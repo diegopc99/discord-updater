@@ -4,9 +4,11 @@ This repository contains the necessary files to set up a service that automatica
 
 ## Usage
 
-1. Move the update-discord.service file to /etc/systemd/system
+1. Move the update_discord.service file to /etc/systemd/system
 
-2. Copy the update-discord.sh to /opt/AutoUpdateDiscord/
+2. Copy the update_discord.sh to /opt/AutoUpdateDiscord/
+
+3. Run ```sudo systemctl daemon-reload ```
 
 ## Start the service
 
